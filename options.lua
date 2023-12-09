@@ -6,7 +6,14 @@ return {
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
-    wrap = false, -- sets vim.opt.wrap
+    wrap = false, -- sets vim.opt.wrapset relativenumber
+    hlsearch = true,
+    clipboard = "unnamedplus,unnamed"
+
+-- set ignorecase
+-- set smartcase
+-- set visualbell
+-- set showmode
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
