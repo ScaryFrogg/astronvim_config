@@ -8,8 +8,8 @@ return {
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrapset relativenumber
     hlsearch = true,
-    clipboard = "unnamedplus,unnamed"
-
+    clipboard ="unnamedplus",
+    showmode = true,
 -- set ignorecase
 -- set smartcase
 -- set visualbell
